@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<xsd:schema xmlns="http://code.jcrazy.com/schema/lightning"
+			xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			targetNamespace="http://code.jcrazy.com/schema/lightning"
+			elementFormDefault="qualified"
+			attributeFormDefault="unqualified">
+
+    <xsd:element name="service">
+		<xsd:complexType>
+			<xsd:attribute name="interface" type="xsd:token" use="required"></xsd:attribute>
+			<xsd:attribute name="ref" type="xsd:token" use="required"></xsd:attribute>
+			<xsd:attribute name="class" type="xsd:token" use="optional"></xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+
+</xsd:schema>
